@@ -7,11 +7,9 @@ Welcome to **AnimeHub Blog**! This project is a robust and engaging web applicat
 ## ✨ Features
 
 * **User Authentication:** Secure user registration, login, and logout.
-* **Blog Posts:** Users can create, edit, and delete their own anime-related blog posts.
+* **Blog Posts:** Admin can create, edit, and delete their own anime-related blog posts.
 * **Comments:** Engage with content by leaving comments on blog posts.
 * **Categories & Tags:** Organize and discover content easily through categorized and tagged posts.
-* **Search Functionality:** Quickly find specific anime blogs or topics.
-* **Responsive Design:** Enjoy a seamless Browse experience on any device.
 * **Admin Panel (Optional):** Manage users, posts, and comments (if implemented).
 
 ---
