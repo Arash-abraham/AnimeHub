@@ -42,7 +42,7 @@ Before you begin, ensure you have the following installed on your system:
 
 1.  **Clone the Repository:**
     ```bash
-    git clone [https://github.com/arash-abraham/AnimeHub.git](https://github.com/arash-abraham/AnimeHub.git)
+    git clone https://github.com/arash-abraham/AnimeHub.git
     cd AnimeHub
     ```
 
