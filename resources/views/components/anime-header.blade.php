@@ -14,8 +14,16 @@
             </ul>
         </nav>
         <div class="auth-buttons">
-            <a href="/login" class="btn btn-login">Login</a>
-            <a href="/register" class="btn btn-register">Sign Up</a>
+            @auth
+                <span class="user-name">Welcom {{ auth()->user()->name }}</span>
+                <form action="/logout" method="POST" style="display: inline;">
+                    @csrf
+                    <button type="submit" class="btn btn-register">Logout</button>
+                </form>            
+            @else
+                <a href="/login" class="btn btn-login">Login</a>
+                <a href="/register" class="btn btn-register">Sign Up</a>
+            @endauth
         </div>
     </div>
 </header>
