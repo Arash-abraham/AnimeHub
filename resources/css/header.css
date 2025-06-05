@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header {
+    @apply fixed top-0 left-0 w-full bg-gray-800 shadow-md z-10;
+}
+
+.header-container {
+    @apply container mx-auto flex items-center justify-between py-4 px-6;
+}
+
+.logo-container {
+    @apply flex items-center space-x-4;
+}
+
+.logo {
+    @apply h-10 w-10;
+}
+
+.site-title {
+    @apply text-2xl font-bold text-purple-400;
+}
+
+.nav {
+    @apply hidden md:flex space-x-6;
+}
+
+.nav-link {
+    @apply hover:text-purple-400 transition;
+}
+
+.auth-buttons {
+    @apply flex items-center space-x-4;
+}
+
+.auth-button {
+    @apply px-4 py-2 rounded transition text-white;
+}
+
+.login-button {
+    @apply bg-purple-600 hover:bg-purple-700;
+}
+
+.signup-button {
+    @apply bg-gray-600 hover:bg-gray-700;
+}
+
+.logout-button {
+    @apply bg-red-600 hover:bg-red-700;
+}
+
+.profile-link {
+    @apply text-purple-400;
+}
